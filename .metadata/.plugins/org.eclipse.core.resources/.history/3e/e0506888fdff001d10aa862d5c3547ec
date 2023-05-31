@@ -41,7 +41,7 @@ public class AplicacionTaller {
 		ConsultarDatos personaGeneral = new PersonaNatural("Judith", "54654654", "ced");
 		consultar(personaGeneral, "555");
 		personaGeneral = new PersonaJuridica("Henrri", "546545", ruc);
-		consultar(personaGeneral, "588855");////
+		consultar(personaGeneral, "588855");//
 	}
 
 	public static void consultar(ConsultarDatos consulta, String dato) {
