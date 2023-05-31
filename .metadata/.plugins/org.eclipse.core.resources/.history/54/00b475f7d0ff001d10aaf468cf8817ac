@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fin.coop1504.tallerjava.entidades;
+
+/**
+ * @author anvera
+ *
+ */
+public class Persona {
+
+}

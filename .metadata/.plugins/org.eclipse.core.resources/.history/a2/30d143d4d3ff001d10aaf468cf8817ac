@@ -1,0 +1,12 @@
+package fin.coop1504.tallerjava;
+
+import fin.coop1504.tallerjava.servicios.ServiciosPersona;
+
+public class AplicacionTaller {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ServiciosPersona.registrardatos("Angelica", "1309859609", "Ced")
+	}
+
+}
