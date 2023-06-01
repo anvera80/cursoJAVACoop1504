@@ -1,6 +1,6 @@
 package fin.coop1504.tallerjava.excepciones;
 
-public class ExcepcionValidacion extends Exception {
+public class ExcepcionValidacion extends Exception { // extends indica la herencia
 
 	private static final long serialVersionUID = 1L;
 	private String codigo;
