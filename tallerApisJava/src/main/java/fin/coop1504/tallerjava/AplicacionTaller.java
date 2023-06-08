@@ -44,12 +44,10 @@ public class AplicacionTaller {
 		System.out.println("Error");	
 		}
 	}
-
 	public static void validarDatos(String anios) {
 		Integer edad = Integer.parseInt(anios);
 		System.out.println(edad);
 	}
-
 	public static void validarDatosEspecificos(String dato) throws ExcepcionValidacion {
 		if (dato == null || dato.isEmpty()) {
 			//ExcepcionValidacion error = new ExcepcionValidacion("001", "Error al validar el dato");

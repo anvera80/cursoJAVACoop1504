@@ -21,8 +21,8 @@ public class AplicacionArchivo {
 		BufferedReader recorreArchivo = null;
 		try {
 
-			FileReader lector = new FileReader(archivo);
-			recorreArchivo = new BufferedReader(lector);
+			FileReader lector = new FileReader(archivo);//abrir el archivo
+			recorreArchivo = new BufferedReader(lector); 
 			String linea = recorreArchivo.readLine();
 //            System.out.println("Linea 1 del archivo: " + linea);
 //            linea = recorreArchivo.readLine();

@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\cursoJAVACoop1504\taller-controluniversal"/>
+			<item value="C:\cursoJAVACoop1504\taller1-java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,6 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -43,13 +46,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="fim.coop1504.tallerjava"/>
+			<item value="fin.coop1504.tallerjava"/>
 		</list>
 		<list key="name">
-			<item value="taller1-java"/>
+			<item value="taller-jdbc"/>
 		</list>
 		<list key="artifactId">
-			<item value="taller1-java"/>
+			<item value="taller-jdbc"/>
+			<item value="taller-threads"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -60,7 +64,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0"/>
+			<item value="1.1"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
